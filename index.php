@@ -7,7 +7,7 @@ $nr = 1;
 // Kümnendmurd
 $nr = 10.0121;
 // Tõeväärtusmuutuja
-$bool = True;
+$bool = False;
 /*
 Massiiv (php ja JS - array, python - list)
 Üherealine kommentaar on // ja #
@@ -20,7 +20,7 @@ echo $massiiv[0];
 
 // Tingimuslause
 if ($bool == False){
-  echo $massiiv;
+  print_r($massiiv);
 } else { echo "Tõeväärtus ei vasta nõutule"; }
 
  ?>
