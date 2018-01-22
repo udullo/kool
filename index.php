@@ -16,11 +16,15 @@ $massiiv = array('Nimi',1974,10.81,'Perenimi' );
 
 echo "$tervitus world!<br>";
 echo '$tervitus world!<br>';
-echo $massiiv[0];
+echo $massiiv[0].'<br>';
 
 // Tingimuslause
 if ($bool == False){
-  print_r($massiiv);
+// massiivi sisu näitamine
+// print_r($massiiv);
+for ($i = 0; $i < count($massiiv); $i++ ) {
+echo $massiiv[$i].'<br>';
+}
 } else { echo "Tõeväärtus ei vasta nõutule"; }
 
  ?>
